@@ -1,7 +1,16 @@
+nav.menu ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+}
+
 div.icons a:visited{
     text-decoration: none;
 }
 
 div.icons a{
     text-decoration: none;
+    color:#00aced;
+    font-size: 3em;
 }
