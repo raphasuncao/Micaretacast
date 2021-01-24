@@ -4,7 +4,8 @@ body{
 }
 
 nav.menu{
-    background-color: rgba(236, 72, 8, 0.911);
+    /*background-color: rgb(78, 76, 92);*/
+    background-color:dimgray;
     position: fixed;
     text-align: right;
     display: inline-block;
@@ -24,12 +25,27 @@ nav.menu ul{
 }
 
 nav.menu ul li{
-    border-style: dotted;
-    border-radius: 5px;
+    border-color:sandybrown;
+    /*border-color: lightpink;*/
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
     text-transform: uppercase;
     text-align: center;
     padding: 1px;
     display: inline-block;
+    padding: 1.5px 1.5px 1.5px 1.5px;
+}
+
+nav.menu ul li:hover{
+    background-color:rgb(255, 136, 0);
+    /*background-color: lightpink;*/
+    transition: 1s;
+}
+
+nav.menu a:hover{
+    color:  rgb(78, 76, 92);
+    transition: 1s;  
 }
 
 nav.menu a{
@@ -39,8 +55,9 @@ nav.menu a{
     align-items: center;
     text-decoration: none;
     font-size: 12px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family:sans-serif;
     font-weight: bolder;
+    color: rgb(255, 136, 0);
 }
 
 div.conteudo{
@@ -48,7 +65,7 @@ div.conteudo{
     margin: auto;
     position: relative;
     top: 30px;
-    background-color: khaki;
+    
 }
 
 #sobre{
