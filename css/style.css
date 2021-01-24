@@ -4,6 +4,13 @@ nav.menu ul{
 }
 
 nav.menu a{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+}
+
+div.icons a:visited{
     text-decoration: none;
 }
 
@@ -13,4 +20,5 @@ nav.menu a:visited{
 
 div.icons a{
     color: #00aced;
+    font-size: 3em;
 }
