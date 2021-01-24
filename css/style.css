@@ -1,6 +1,35 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+nav.menu{
+    background-color: rgba(236, 72, 8, 0.911);
+    position: fixed;
+    text-align: right;
+    display: inline-block;
+    width: 100vw;
+    height: 30px;
+    top: 0;
+    z-index: 1;
+}
+
 nav.menu ul{
+    max-width: auto;
+    margin: 5px 20px 0px 0px;
+    text-align: center;
     display: inline-block;
     list-style: none;
+    padding: 0;
+}
+
+nav.menu ul li{
+    border-style: dotted;
+    border-radius: 5px;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 1px;
+    display: inline-block;
 }
 
 nav.menu a{
@@ -8,6 +37,22 @@ nav.menu a{
     list-style: none;
     justify-content: space-around;
     align-items: center;
+    text-decoration: none;
+    font-size: 12px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+}
+
+div.conteudo{
+    width: 600px;
+    margin: auto;
+    position: relative;
+    top: 30px;
+    background-color: khaki;
+}
+
+#sobre{
+    margin-top: auto;
 }
 
 div.icons a:visited{
@@ -20,5 +65,4 @@ nav.menu a:visited{
 
 div.icons a{
     color: #00aced;
-    font-size: 3em;
 }
