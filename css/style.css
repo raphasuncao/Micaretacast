@@ -1,7 +1,16 @@
-div.icons a:visited{
+nav.menu ul{
+    display: inline-block;
+    list-style: none;
+}
+
+nav.menu a{
+    text-decoration: none;
+}
+
+nav.menu a:visited{
     text-decoration: none;
 }
 
 div.icons a{
-    text-decoration: none;
+    color: #00aced;
 }
